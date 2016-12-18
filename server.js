@@ -3,7 +3,7 @@
 var express = require('express'),
     proxy = require('http-proxy-middleware'),
     argv = require('yargs')
-		.usage("Usage: $0 --api='https://domain.tld/api/' --port=3000")
+		.usage("Usage: $0 --api='https://domain.tld/' --port=3000")
 		.default('port', 3000)
 		.argv;
 

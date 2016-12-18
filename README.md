@@ -9,9 +9,11 @@ Installation
 Start server
 ------------
 
-    node server.js
+Specify API server:
 
-Usage
------
+    node server.js --api='https://domain.tld/'
+
+Usage example
+-------------
 
 http://localhost:3000/
